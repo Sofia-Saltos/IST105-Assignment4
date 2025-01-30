@@ -22,7 +22,7 @@
             background-color: #ffd1dc; 
             padding: 2rem;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(23, 20, 20, 0.1);
             width: 100%;
             max-width: 400px;
         }
