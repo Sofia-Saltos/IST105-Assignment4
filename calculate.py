@@ -1,9 +1,10 @@
+
 import sys
 import json
 import math
 
 def calculate(a, b, c):
-    if not (isnumeric(a) and isnumeric(b) and isnumeric(c)):
+    if not (isinstance(a, (int, float)) and isinstance(b, (int, float)) and isinstance(c, (int, float))):
         return {"error": "All inputs must be numeric."}
     if a < 1:
         return {"error": "The input 'a' is too small."}
